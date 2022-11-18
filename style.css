@@ -5,13 +5,14 @@
 }
 #drinking {
     position: absolute;
+    margin-top: 30px;
     left:500px;
     width:200px;
     mix-blend-mode: multiply;
 }
 #liquid {
     position: absolute;
-    margin-top: 48px;
+    margin-top: 78px;
     left:510px;
     width:45px;
     height:65px;
@@ -22,7 +23,7 @@
 }
 #drunk {
     position: absolute;
-    top:255px;
+    top:285px;
     left:565px;
     width: 150px;
 }
