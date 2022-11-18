@@ -1,0 +1,28 @@
+.body {
+    max-width: 500px;
+    width: 25%;
+    min-width: 100px;
+}
+#drinking {
+    position: absolute;
+    left:500px;
+    width:200px;
+    mix-blend-mode: multiply;
+}
+#liquid {
+    position: absolute;
+    margin-top: 48px;
+    left:510px;
+    width:45px;
+    height:65px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color:rgb(234, 172, 16);
+    transform: rotate(-5.2deg);
+}
+#drunk {
+    position: absolute;
+    top:255px;
+    left:565px;
+    width: 150px;
+}
