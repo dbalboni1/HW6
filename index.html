@@ -1,0 +1,45 @@
+<!-- 
+    Dan Balboni
+    CPSC 332 (Web Development)
+    HW6
+    Last Modified: 11/18
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW6 - JQuery</title>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+
+    <!-- link to script file -->
+    <script type="text/javascript" src="script.js"></script>
+    
+    <!-- link to stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>JQuery Stopwatch</h2>
+        <p id="timer"><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <div>
+            <button id="button-start">Start</button>
+            <button id="button-stop">Stop</button>
+            <button id="button-reset">Reset</button>
+        </div>
+    </div>
+    <div>
+        <img src="drinking.png" id="drinking" >
+        <div id="liquid">
+        </div>
+        <img hidden id="drunk" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fab%2Fcd%2F7d%2Fabcd7d08084d1556d805701c702905fe.png&f=1&nofb=1&ipt=22274dc12efb3a7fb594614e99fb6a894834e308824d213fc9e3816548addc0f&ipo=images">
+    </div>
+</body>
+
+</html>
